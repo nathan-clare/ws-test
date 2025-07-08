@@ -1,4 +1,13 @@
 {
-  "name": "quiz-server",
-  "packageManager": "yarn@4.4.1"
+    "name": "quiz-server",
+    "type": "module",
+    "packageManager": "yarn@4.4.1",
+    "dependencies": {
+        "express": "^5.1.0",
+        "mongodb": "^6.17.0",
+        "ws": "^8.18.3"
+    },
+    "devDependencies": {
+        "prettier": "^3.6.2"
+    }
 }
